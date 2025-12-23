@@ -6,6 +6,7 @@ import plotly.express as px
 import os
 import json
 import re
+import streamlit as st
 from datetime import datetime
 
 print("=== INICIANDO IPS GOLEMAN APP - VERSIÓN CONSOLIDADA V2 ===")
@@ -1464,3 +1465,4 @@ if __name__ == "__main__":
             time.sleep(1)
     except KeyboardInterrupt:
         print("Cerrando...")
+
