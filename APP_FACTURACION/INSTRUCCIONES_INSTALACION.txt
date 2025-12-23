@@ -1,0 +1,34 @@
+GUÍA DE INSTALACIÓN Y EJECUCIÓN - APP FACTURACIÓN IPS GOLEMAN
+===========================================================
+
+Para ejecutar esta aplicación en otro dispositivo, sigue estos pasos:
+
+1. INSTALAR PYTHON
+   - Descarga e instala Python desde: https://www.python.org/downloads/
+   - IMPORTANTE: Al instalar, marca la casilla "Add Python to PATH".
+
+2. PREPARAR LA CARPETA
+   - Descomprime el archivo ZIP en una carpeta (ej: Escritorio\APP_FACTURACION).
+
+3. INSTALAR DEPENDENCIAS
+   - Abre una terminal (PowerShell o CMD) en la carpeta de la aplicación.
+   - Ejecuta el siguiente comando para instalar las librerías necesarias:
+     
+     pip install -r requirements.txt
+
+4. EJECUTAR LA APLICACIÓN
+   - En la misma terminal, ejecuta:
+     
+     py appy.py
+
+   - O si no funciona el comando 'py', intenta con:
+     
+     python appy.py
+
+5. ABRIR EN EL NAVEGADOR
+   - La aplicación mostrará una dirección local (ej: http://127.0.0.1:7860).
+   - Abre esa dirección en tu navegador (Chrome, Edge, etc.).
+
+NOTAS:
+- Si modificas el código, asegúrate de guardar los cambios antes de reiniciar la aplicación.
+- Los archivos Excel generados se guardan en la misma carpeta.
